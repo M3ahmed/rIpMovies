@@ -10,8 +10,6 @@ import UIKit
 import AlamofireImage
 class ripMoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    
-
     @IBOutlet weak var tableView: UITableView!
     
     var movies = [[String:Any]]()
